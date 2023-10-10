@@ -88,10 +88,14 @@
             </div>
             <div class="col-md-2">
                 <div class="yearly-form">
-                    <label for="m_start_year">Starting Year</label>
-                    <input id="m_start_year" type="number" min="1970" max="2023" value="2000">
-                    <label for="m_end_year">Ending Year</label>
-                    <input id="m_end_year" type="number" min="1970" max="2023" value="2010">
+                    <div>
+                        <label for="m_start_year">Starting Year</label>
+                        <input id="m_start_year" type="number" min="1970" max="2023" value="2000">
+                    </div>
+                    <div>
+                        <label for="m_end_year">Ending Year</label>
+                        <input id="m_end_year" type="number" min="1970" max="2023" value="2010">
+                    </div>
                     <button id="m_year_update">Update Data</button>
                 </div>
             </div>
@@ -104,10 +108,14 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="top-form">
-                    <label for="m_top_year">Year</label>
-                    <input id="m_top_year" type="number" min="1970" max="2023" value="2000">
-                    <label for="m_top_amt">Results</label>
-                    <input id="m_top_amt" type="number" min="1" max="10" value="5">
+                    <div>
+                        <label for="m_top_year">Year</label>
+                        <input id="m_top_year" type="number" min="1970" max="2023" value="2000">
+                    </div>
+                    <div>
+                        <label for="m_top_amt">Results</label>
+                        <input id="m_top_amt" type="number" min="1" max="10" value="5">
+                    </div>
                     <select id="m_sort_by" value="score">
                         <option value="score">Score</option>
                         <option value="members">Members</option>
