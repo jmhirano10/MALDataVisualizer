@@ -29,10 +29,14 @@
             </div>
             <div class="col-md-2">
                 <div class="yearly-form">
-                    <label for="tv_start_year">Starting Year</label>
-                    <input id="tv_start_year" type="number" min="1970" max="2023" value="2000">
-                    <label for="tv_end_year">Ending Year</label>
-                    <input id="tv_end_year" type="number" min="1970" max="2023" value="2010">
+                    <div>
+                        <label for="tv_start_year">Starting Year</label>
+                        <input id="tv_start_year" type="number" min="1970" max="2023" value="2000">
+                    </div>
+                    <div>
+                        <label for="tv_end_year">Ending Year</label>
+                        <input id="tv_end_year" type="number" min="1970" max="2023" value="2010">
+                    </div>
                     <button id="tv_year_update">Update Data</button>
                 </div>
             </div>
@@ -45,10 +49,14 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="top-form">
-                    <label for="tv_top_year">Year</label>
-                    <input id="tv_top_year" type="number" min="1970" max="2023" value="2000">
-                    <label for="tv_top_amt">Results</label>
-                    <input id="tv_top_amt" type="number" min="1" max="10" value="5">
+                    <div>
+                        <label for="tv_top_year">Year</label>
+                        <input id="tv_top_year" type="number" min="1970" max="2023" value="2000">
+                    </div>
+                    <div>
+                        <label for="tv_top_amt">Results</label>
+                        <input id="tv_top_amt" type="number" min="1" max="10" value="5">
+                    </div>
                     <select id="tv_sort_by" value="score">
                         <option value="score">Score</option>
                         <option value="members">Members</option>
