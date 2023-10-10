@@ -1,0 +1,70 @@
+.header {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.smallheader {
+    margin-top: 40px;
+}
+.graph {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    padding: 20px;
+    background-color: #c1ebf7;
+    box-shadow:  8px 8px rgba(0, 0, 0, 0.2);
+}
+.yearly-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card {
+    border-radius: 0.5rem;
+    border-width: 0px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ff9ca7;
+    box-shadow:  8px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    margin-left: 30px;
+}
+body {
+    background-color: #fff6eb;
+    font-family: "Nunito";
+}
+html {
+    overflow-x: hidden;
+    width: 100vw;
+}
+img {
+    border-radius: 0.5rem;
+    max-width: 110px;
+    height: auto;
+}
+p {
+    margin: 0px;
+}
+h1,h2,h3,h4 {
+    color: #303030;
+    font-weight: 700;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 20px;
+}
